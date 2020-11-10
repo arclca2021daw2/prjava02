@@ -1,0 +1,34 @@
+INSTRUCCIONS:
+1.
+git branch branca00
+git checkout branca00
+git status
+
+5.
+git checkout main
+git log
+
+7.
+git branch branca00
+
+10b.
+git merge branca00
+
+12.
+git push origin main
+
+14a.
+git push origin branca01
+
+RESPOSTES:
+6.
+No, perquè aquest canvi només està en la branca "branca00".
+
+7.
+Sí, perquè ara ja estem en la branca "branca00", que és on hem fet els canvis.
+
+12c.
+Perquè al fer el push selecciones de quina branca el fas (git push origin BRANCA), aleshores només es fa el push d'aquella branca, en aquest cas la main.
+
+14c.
+A un, que és l'últim que hem fet en la branca01.
